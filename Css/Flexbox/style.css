@@ -38,7 +38,7 @@ body {
 }
 
 .item-3 {
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
 
 .item-1 {
