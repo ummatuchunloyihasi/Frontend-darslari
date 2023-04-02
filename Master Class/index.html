@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/sf-ui-text-2" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main class="main">
+        <div class="main__wrapper"></div>
+        <div class="main__content container">
+            <header class="header">
+                <a href="/" class="logo">
+                    <svg width="227" height="36" viewBox="0 0 227 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0_2_7" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="147" height="36">
+                        <rect width="146.769" height="36" fill="url(#pattern0)"/>
+                        </mask>
+                        <g mask="url(#mask0_2_7)">
+                        <rect width="146.769" height="36" fill="white"/>
+                        </g>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_2_7" transform="matrix(0.00101626 0 0 0.0042735 -0.0487805 -0.104701)"/>
+                        </pattern>
+                        <image id="image0_2_7" width="1080" height="273" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDgAAAERCAMAAACpVefkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDM1MiwgMjAyMC8wMS8zMC0xNTo1MDozOCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpjNzJhMzJlYy0zNjMyLTUyNGEtYTJjZi1mYWUzNDQ1Zjk2OGIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDQ5MEI5RkRBRDZFMTFFQUJCOUJCNjdFNzI4NTg4MUMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDQ5MEI5RkNBRDZFMTFFQUJCOUJCNjdFNzI4NTg4MUMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6ZjIzZWUxNmItMTFlMC1mNDRjLTg4MzgtZjEwN2YwMDA2MzNiIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOmM3MmEzMmVjLTM2MzItNTI0YS1hMmNmLWZhZTM0NDVmOTY4YiIv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"/>
+                        </defs>
+                    </svg>   
+                </a>
+                <nav class="header-nav">
+                    <a href="/" class="header-nav__item"> Что посмотреть </a>
+                    <a href="/" class="header-nav__item"> По какому поводу </a>
+                    <a href="/" class="header-nav__item"> Что поесть </a>
+                    <a href="/" class="header-nav__item"> Что подарить </a>
+                </nav>
+                <a class="contact" href="tel:+79214005020"> +7 921 400-50-20 </a>
+            </header>
+            <nav class="nav">
+                <a href="#" class="nav__item"> Вояжи </a>
+                <a href="#" class="nav__item"> Катера </a>
+                <a href="#" class="nav__item"> Яхтенное меню </a>
+                <a href="" class="nav__item"> Блог </a>
+                <a href="" class="nav__item"> Партнёры </a>
+                <a href="" class="nav__item"> Отзывы </a>
+                <a href="" class="nav__item"> Контакты </a>
+                <button class="btn btn__transparent"> Оставить заявку </button>
+            </nav>
+            <section class="intro">
+                <h1 class="intro__title">Соберите свой вояж по самым интересным местам на катере или яхте</h1>
+                <p class="intro__text">Чтобы все получилось, выберите сначала вояж и желаемые дату и время путешествия, после этого вам будет необходимо выбрать соответсвующий выбранному катеру и времени маршрут и яхтенное меню</p>
+                <button class="btn btn__orange">Перейти к выбору вояжа</button>
+            </section>
+        </div>
+    </main>
+    <section class="container info">
+        <div class="info__header">
+            <h2 class="info__title">Вояжи</h2>
+            <p class="info__text">Наши вояжи включают быстрые (до 2-х часов) и длительные (от 2-ч и до 6–7 часов) маршруты</p>
+            <div class="info__categories">
+                <button class="btn btn__transparent"> Быстрые маршруты </button>
+                <button class="btn btn__transparent"> Длительные маршруты </button>
+                <button class="btn btn__transparent"> Только на борту </button>
+                <button class="btn btn__transparent"> С пешими прогулками </button>
+            </div>
+        </div>
+        <div class="info__content">
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/pic1.png" alt="">
+                </div>
+                <div class="card__info">
+                    <div>
+                        <h3 class="card__info-title"> Вояж по Ладожским шхерам </h3>
+                        <div class="card__info-item">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>Общее время</p>
+                        </div>
+                        <div class="card__info-item">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>Вместимость до 6 персон</p>
+                        </div>
+                        <p class="card__info-text line-clamp-3">
+                            В этом вояже мы поедем на Север, в город Сортавала, чтобы оттуда отправиться в плаванье по Ладожским шхерам. Нас ждут живописные скалистые берега, Карельская…
+                        </p>
+                    </div>
+                    <div class="card__info-bottom">
+                        <button class="btn btn__transparent"> Подробнее </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image">
+                    <img src="./images/pic1.png" alt="">
+                </div>
+                <div class="card__info">
+                    <div>
+                        <h3 class="card__info-title"> Вояж по Ладожс </h3>
+                        <div class="card__info-item">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>Общее время</p>
+                        </div>
+                        <div class="card__info-item">
+                            <i class="fa-solid fa-user-group"></i>
+                            <p>Вместимость до 6 персон</p>
+                        </div>
+                        <p class="card__info-text line-clamp-3">
+                            В этом вояже мы поедем на Север, в город Сортавала, чтобы оттуда отправиться в плаванье по Ладожским шхерам. Нас ждут живописные скалистые берега, Карельска. 
+            В этом вояже мы поедем на Север, в город Сортавала, чтобы оттуда отправиться в плаванье по Ладожским шхерам. Нас ждут живописные скалистые берега, Карельска.
+                        </p>
+                    </div>
+                    <div class="card__info-bottom">
+                        <button class="btn btn__transparent"> Подробнее </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container position">
+        <div class="box"></div>
+    </section>
+</body>
+</html>
